@@ -83,19 +83,19 @@
 
         nav_layer {
             bindings = <
-&trans             &trans             &trans          &trans                     &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
-&HRM_L LEFT_WIN A  &HRM_L LEFT_ALT S  &HRM_L LCTRL D  &HRM_Shift_L LEFT_SHIFT F  &trans    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans             &trans             &kp DEL         &kp BACKSPACE              &trans    &trans    &trans     &kp COMMA  &kp DOT    &kp QUESTION
-                                                      &trans                     &trans    &trans    &trans
+&kp RC(NUMBER_1)   &kp LC(LS(TAB))    &kp LC(TAB)     &kp RC(N9)                 &kp LA(G)    &trans    &kp HOME              &kp PAGE_DOWN         &kp PG_UP  &kp END
+&HRM_L LEFT_WIN A  &HRM_L LEFT_ALT S  &HRM_L LCTRL D  &HRM_Shift_L LEFT_SHIFT F  &trans       &kp LEFT  &kp DOWN              &kp UP                &kp RIGHT  &trans
+&trans             &kp LA(GRAVE)      &kp DEL         &kp BACKSPACE              &trans       &trans    &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &trans     &trans
+                                                      &trans                     &trans       &trans    &trans
             >;
         };
 
         num_pad {
             bindings = <
-&sys_reset   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &sys_reset
-&bootloader  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bootloader
-&trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                             &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
 
