@@ -83,19 +83,19 @@
 
         nav_layer {
             bindings = <
-&kp RC(NUMBER_1)   &kp LC(LS(TAB))    &kp LC(TAB)     &kp RC(N9)                 &kp LA(G)    &trans    &kp HOME              &kp PAGE_DOWN         &kp PG_UP  &kp END
-&HRM_L LEFT_WIN A  &HRM_L LEFT_ALT S  &HRM_L LCTRL D  &HRM_Shift_L LEFT_SHIFT F  &trans       &kp LEFT  &kp DOWN              &kp UP                &kp RIGHT  &trans
-&trans             &kp LA(GRAVE)      &kp DEL         &kp BACKSPACE              &trans       &trans    &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &trans     &trans
-                                                      &trans                     &trans       &trans    &trans
+&kp RC(NUMBER_1)   &kp LC(LS(TAB))    &kp LC(TAB)     &kp RC(N9)                 &kp LA(G)            &trans    &kp HOME              &kp PAGE_DOWN         &kp PG_UP  &kp END
+&HRM_L LEFT_WIN A  &HRM_L LEFT_ALT S  &HRM_L LCTRL D  &HRM_Shift_L LEFT_SHIFT F  &trans               &kp LEFT  &kp DOWN              &kp UP                &kp RIGHT  &trans
+&kp LC(LG(LEFT))   &kp LA(GRAVE)      &kp DEL         &kp BACKSPACE              &kp LG(LC(RIGHT))    &trans    &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &trans     &trans
+                                                      &trans                     &trans               &trans    &trans
             >;
         };
 
         num_pad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+                     &none  &none    &none  &none
             >;
         };
 
