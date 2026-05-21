@@ -62,6 +62,15 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mouse {
+            bindings = <&tog 5>;
+            key-positions = <22 23>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
