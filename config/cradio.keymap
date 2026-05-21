@@ -69,16 +69,16 @@
 &kp Q          &kp W          &kp E           &kp R                 &kp T          &kp Y          &kp U                 &kp I           &kp O          &kp P
 &HRM_L LGUI A  &HRM_L LALT S  &HRM_L LCTRL D  &HRM_Shift_L LSHFT F  &kp G          &kp H          &HRM_Shift_R RSHFT J  &HRM_R RCTRL K  &HRM_R RALT L  &HRM_R RGUI SEMICOLON
 &kp Z          &kp X          &kp C           &kp V                 &kp B          &kp N          &kp M                 &kp COMMA       &kp DOT        &kp FSLH
-                                              &lt 1 TAB             &lt 2 ENTER    &kp BACKSPACE  &kp SPACE
+                                              &lt 1 TAB             &lt 2 ENTER    &kp BACKSPACE  &lt 3 SPACE
             >;
         };
 
         nav_layer {
             bindings = <
-&kp RC(NUMBER_1)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp RC(N9)      &kp LA(G)            &trans    &kp HOME              &kp PAGE_DOWN         &kp PG_UP  &kp END
-&kp LEFT_WIN      &kp LEFT_ALT     &kp LCTRL    &kp LEFT_SHIFT  &kp LA(GRAVE)        &kp LEFT  &kp DOWN              &kp UP                &kp RIGHT  &kp ESCAPE
-&kp LC(LG(LEFT))  &kp LC(X)        &kp LC(C)    &kp LC(LS(V))   &kp LG(LC(RIGHT))    &trans    &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &trans     &trans
-                                                &trans          &trans               &kp DEL   &trans
+&kp RC(NUMBER_1)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp RC(N9)      &kp LA(G)            &trans    &kp HOME              &kp PAGE_DOWN  &kp PG_UP   &kp END
+&kp LEFT_WIN      &kp LEFT_ALT     &kp LCTRL    &kp LEFT_SHIFT  &kp LA(GRAVE)        &kp LEFT  &kp DOWN              &kp UP         &kp RIGHT   &kp ESCAPE
+&kp LC(LG(LEFT))  &kp LC(X)        &kp LC(C)    &kp LC(LS(V))   &kp LG(LC(RIGHT))    &trans    &kp LS(LC(NUMBER_1))  &kp COMMA      &kp PERIOD  &kp QUESTION
+                                                &trans          &trans               &kp DEL   &kp LS(LC(NUMBER_2))
             >;
         };
 
@@ -91,12 +91,12 @@
             >;
         };
 
-        left_layer {
+        sym_layer {
             bindings = <
-&trans    &kp LBKT  &kp LBRC  &kp RBRC  &trans       &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT  &kp TILDE
-&kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
-&trans    &trans    &trans    &trans    &trans       &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &trans
-                              &trans    &trans       &trans     &trans
+&kp GRAVE  &trans         &trans        &trans    &trans       &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans   &kp NON_US_BACKSLASH
+&kp EXCL   &kp AT         &kp HASH      &kp DLLR  &kp PRCNT    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT  &kp DOUBLE_QUOTES
+&kp CARET  &kp AMPERSAND  &kp ASTERISK  &trans    &trans       &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans   &trans
+                                        &trans    &trans       &trans  &trans
             >;
         };
     };
