@@ -57,6 +57,22 @@
             slow-release;
             require-prior-idle-ms = <50>;
         };
+
+        r-win {
+            bindings = <&kp RIGHT_WIN>;
+            key-positions = <17 18>;
+            timeout-ms = <50>;
+            slow-release;
+            require-prior-idle-ms = <50>;
+        };
+
+        l-win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <11 12>;
+            timeout-ms = <50>;
+            slow-release;
+            require-prior-idle-ms = <50>;
+        };
     };
 
     keymap {
