@@ -58,17 +58,57 @@
             require-prior-idle-ms = <50>;
         };
 
+        l-win {
+            bindings = <&kp LWIN>;
+            key-positions = <11 12>;
+            timeout-ms = <50>;
+            slow-release;
+            require-prior-idle-ms = <50>;
+        };
+
         r-win {
-            bindings = <&kp RIGHT_WIN>;
+            bindings = <&kp RWIN>;
             key-positions = <17 18>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
         };
 
-        l-win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <11 12>;
+        l-shift-alt {
+            bindings = <&kp LS(LA(LEFT_WIN))>;
+            key-positions = <11 12 13>;
+            timeout-ms = <50>;
+            slow-release;
+            require-prior-idle-ms = <50>;
+        };
+
+        r-shift-alt {
+            bindings = <&kp LS(LA(LEFT_WIN))>;
+            key-positions = <16 17 18>;
+            timeout-ms = <50>;
+            slow-release;
+            require-prior-idle-ms = <50>;
+        };
+
+        l-ctrl-alt {
+            bindings = <&kp LS(LA(LEFT_WIN))>;
+            key-positions = <21 22 23>;
+            timeout-ms = <50>;
+            slow-release;
+            require-prior-idle-ms = <50>;
+        };
+
+        r-ctrl-alt {
+            bindings = <&kp LS(LA(LEFT_WIN))>;
+            key-positions = <26 27 28>;
+            timeout-ms = <50>;
+            slow-release;
+            require-prior-idle-ms = <50>;
+        };
+
+        r-ctrl-shift-alt {
+            bindings = <&kp LS(LA(LEFT_WIN))>;
+            key-positions = <20 21 22 23>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
