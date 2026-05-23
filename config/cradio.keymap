@@ -75,23 +75,23 @@
         };
 
         l-shift-alt {
-            bindings = <&kp LS(LA(LEFT_WIN))>;
-            key-positions = <21 22>;
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <11 10>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
         };
 
         r-shift-alt {
-            bindings = <&kp LS(LA(LEFT_WIN))>;
-            key-positions = <27 28>;
+            bindings = <&kp RS(RIGHT_ALT)>;
+            key-positions = <18 19>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
         };
 
         l-ctrl-alt {
-            bindings = <&kp LS(LA(LEFT_WIN))>;
+            bindings = <&kp LC(LEFT_ALT)>;
             key-positions = <20 21>;
             timeout-ms = <50>;
             slow-release;
@@ -99,7 +99,7 @@
         };
 
         r-ctrl-alt {
-            bindings = <&kp LS(LA(LEFT_WIN))>;
+            bindings = <&kp RC(RIGHT_ALT)>;
             key-positions = <29 28>;
             timeout-ms = <50>;
             slow-release;
@@ -107,7 +107,7 @@
         };
 
         l-ctrl-shift-alt {
-            bindings = <&kp LS(LA(LC(LEFT_WIN)))>;
+            bindings = <&kp LS(LC(LEFT_ALT))>;
             key-positions = <20 23>;
             timeout-ms = <50>;
             slow-release;
