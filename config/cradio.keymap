@@ -84,7 +84,7 @@
 
         l-ctrl-alt {
             bindings = <&kp LA(LCTRL)>;
-            key-positions = <20 21>;
+            key-positions = <22 11>;
             timeout-ms = <35>;
             slow-release;
             require-prior-idle-ms = <120>;
@@ -92,7 +92,7 @@
 
         r-ctrl-alt {
             bindings = <&kp RA(RCTRL)>;
-            key-positions = <28 29>;
+            key-positions = <27 18>;
             timeout-ms = <35>;
             slow-release;
             require-prior-idle-ms = <120>;
