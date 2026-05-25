@@ -65,6 +65,54 @@
             slow-release;
             require-prior-idle-ms = <120>;
         };
+
+        l-win {
+            bindings = <&kp LWIN>;
+            key-positions = <13 2>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
+
+        r-win {
+            bindings = <&kp RWIN>;
+            key-positions = <16 7>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
+
+        l-ctrl-alt {
+            bindings = <&kp LA(LCTRL)>;
+            key-positions = <20 21>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
+
+        r-ctrl-alt {
+            bindings = <&kp RA(RCTRL)>;
+            key-positions = <28 29>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
+
+        l-shift-alt {
+            bindings = <&kp LA(LSHFT)>;
+            key-positions = <12 1>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
+
+        r-shift-alt {
+            bindings = <&kp RA(RSHIFT)>;
+            key-positions = <17 8>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
     };
 
     keymap {
