@@ -35,7 +35,7 @@
         };
 
         l-alt {
-            bindings = <&kp LSHIFT>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <2 3>;
             timeout-ms = <35>;
             slow-release;
@@ -43,7 +43,7 @@
         };
 
         r-alt {
-            bindings = <&kp LSHIFT>;
+            bindings = <&kp RIGHT_ALT>;
             key-positions = <6 7>;
             timeout-ms = <35>;
             slow-release;
@@ -51,7 +51,7 @@
         };
 
         l-ctrl {
-            bindings = <&kp LSHIFT>;
+            bindings = <&kp LCTRL>;
             key-positions = <22 23>;
             timeout-ms = <35>;
             slow-release;
@@ -59,7 +59,7 @@
         };
 
         r-ctrl {
-            bindings = <&kp LSHIFT>;
+            bindings = <&kp RCTRL>;
             key-positions = <26 27>;
             timeout-ms = <35>;
             slow-release;
