@@ -60,7 +60,7 @@
 
         l-win {
             bindings = <&kp LWIN>;
-            key-positions = <11 12>;
+            key-positions = <10 11>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
@@ -68,7 +68,7 @@
 
         r-win {
             bindings = <&kp RWIN>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
@@ -76,7 +76,7 @@
 
         l-shift-alt {
             bindings = <&kp LS(LEFT_ALT)>;
-            key-positions = <11 10>;
+            key-positions = <0 1>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
@@ -84,7 +84,7 @@
 
         r-shift-alt {
             bindings = <&kp RS(RIGHT_ALT)>;
-            key-positions = <18 19>;
+            key-positions = <9 8>;
             timeout-ms = <50>;
             slow-release;
             require-prior-idle-ms = <50>;
