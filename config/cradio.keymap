@@ -98,6 +98,22 @@
             slow-release;
             require-prior-idle-ms = <120>;
         };
+
+        l-ctrl-shift {
+            bindings = <&kp LC(LSHIFT)>;
+            key-positions = <12 23>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
+
+        r-ctrl-shift {
+            bindings = <&kp RC(RSHFT)>;
+            key-positions = <26 17>;
+            timeout-ms = <35>;
+            slow-release;
+            require-prior-idle-ms = <120>;
+        };
     };
 
     keymap {
