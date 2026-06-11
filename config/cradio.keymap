@@ -157,10 +157,10 @@
 
         func_layer {
             bindings = <
-&sys_reset   &trans      &trans                    &trans                &bt BT_SEL 2    &trans  &trans  &trans  &trans  &sys_reset
-&bootloader  &kp F2      &kp LC(C_BRIGHTNESS_DEC)  &kp C_BRIGHTNESS_INC  &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
-&bt BT_CLR   &kp C_MUTE  &kp C_VOLUME_DOWN         &kp C_VOLUME_UP       &bt BT_SEL 0    &trans  &trans  &trans  &trans  &trans
-                                                   &trans                &trans          &trans  &trans
+&trans  &sys_reset  &bootloader               &bt BT_CLR            &bt BT_SEL 2    &trans  &trans  &bootloader  &sys_reset  &trans
+&trans  &kp F2      &kp LC(C_BRIGHTNESS_DEC)  &kp C_BRIGHTNESS_INC  &bt BT_SEL 1    &trans  &trans  &trans       &trans      &trans
+&trans  &kp C_MUTE  &kp C_VOLUME_DOWN         &kp C_VOLUME_UP       &bt BT_SEL 0    &trans  &trans  &trans       &trans      &trans
+                                              &trans                &trans          &trans  &trans
             >;
         };
     };
