@@ -114,6 +114,14 @@
             slow-release;
             require-prior-idle-ms = <120>;
         };
+
+        x {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <32 8>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
     };
 
     keymap {
