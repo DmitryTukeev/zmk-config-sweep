@@ -162,10 +162,10 @@
 
         nav_layer {
             bindings = <
-&trans            &kp LC(LS(TAB))  &kp LC(TAB)  &trans          &kp LA(G)            &trans                &kp HOME              &kp PAGE_DOWN  &kp PG_UP  &kp END
-&kp LEFT_WIN      &kp LEFT_ALT     &kp LCTRL    &kp LEFT_SHIFT  &kp LA(GRAVE)        &kp LEFT              &kp DOWN              &kp UP         &kp RIGHT  &trans
-&kp LC(LG(LEFT))  &kp LC(X)        &kp LC(C)    &kp LC(LS(V))   &kp LG(LC(RIGHT))    &trans                &kp LS(LC(NUMBER_2))  &kp LS(SLASH)  &kp SLASH  &kp LS(N7)
-                                                &trans          &trans               &kp LS(LC(NUMBER_1))  &kp DELETE
+&trans            &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(NUMBER_1)  &kp LA(G)            &trans                &kp HOME              &kp PAGE_DOWN  &kp PG_UP  &kp END
+&kp LEFT_WIN      &kp LEFT_ALT     &kp LCTRL    &kp LEFT_SHIFT    &kp LA(GRAVE)        &kp LEFT              &kp DOWN              &kp UP         &kp RIGHT  &trans
+&kp LC(LG(LEFT))  &kp LC(X)        &kp LC(C)    &kp LC(LS(V))     &kp LG(LC(RIGHT))    &trans                &kp LS(LC(NUMBER_2))  &kp LS(SLASH)  &kp SLASH  &kp LS(N7)
+                                                &trans            &trans               &kp LS(LC(NUMBER_1))  &kp DELETE
             >;
         };
 
