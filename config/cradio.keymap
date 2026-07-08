@@ -114,6 +114,38 @@
             slow-release;
             require-prior-idle-ms = <120>;
         };
+
+        rus-yo {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 31>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
+
+        rus-ea {
+            bindings = <&kp SQT>;
+            key-positions = <32 19>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
+
+        rus-x {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <32 8>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
+
+        rus-solid-sign {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 9>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <120>;
+            slow-release;
+        };
     };
 
     keymap {
